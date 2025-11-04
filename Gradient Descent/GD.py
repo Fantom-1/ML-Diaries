@@ -3,20 +3,18 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 from matplotlib.animation import FuncAnimation
 
-# Define the 3D Function and its Gradient ---
 
 
 def f(x, y):
     return x**2 + y**2
 
-# This is the gradient of the function f(x, y)
-# It's a vector of partial derivatives: [df/dx, df/dy]
+
 def f_gradient(x, y):
     df_dx = 2 * x  
     df_dy = 2 * y  
     return np.array([df_dx, df_dy])
 
-#  The 3D Gradient Descent Algorithm ---
+#  Gradient Descent  
 
 def gradient_descent_3d(start_x, start_y, learning_rate, n_iterations):
    
@@ -35,7 +33,7 @@ def gradient_descent_3d(start_x, start_y, learning_rate, n_iterations):
         
     return history
 
-#  Run the Algorithm ---
+#  Run 
 
 learning_rate = 0.1
 n_iterations = 30
@@ -48,7 +46,7 @@ x_history = [step[0] for step in history]
 y_history = [step[1] for step in history]
 z_history = [step[2] for step in history]
 
-#  Set up the 3D Animation ---
+#  Set up  3D 
 
 fig = plt.figure(figsize=(10, 7))
 ax = fig.add_subplot(111, projection='3d')
@@ -62,7 +60,7 @@ ax.set_xlabel("x")
 ax.set_ylabel("y")
 ax.set_zlabel("f(x, y) = x^2 + y^2")
 
-# Plot the Static Function Surface ---
+# Plot Static Function Surface ---
 
 # Create a meshgrid to plot the surface
 X = np.linspace(-10, 10, 100)
@@ -74,7 +72,7 @@ Z_mesh = f(X_mesh, Y_mesh)
 ax.plot_surface(X_mesh, Y_mesh, Z_mesh, cmap='viridis', alpha=0.6, 
                 edgecolor='none', label="f(x, y)")
 
-# Set up the Animated Elements ---
+# Set up  Animated Element ---
 
 
 point, = ax.plot([], [], [], 'ro', markersize=10, label="Current Position")
@@ -85,7 +83,7 @@ dummy_surface = plt.Line2D([0],[0], linestyle="none", c='blue', marker='_')
 ax.legend([dummy_surface, point, path], 
           ['f(x, y) = x^2 + y^2', 'Current Position', 'Path Taken'], numpoints=1)
 
-# Create the Animation Function ---
+#  Animation Function ---
 
 def update(frame):
 
@@ -96,7 +94,7 @@ def update(frame):
     
     return point, path
 
-#  Create and Display the Animation ---
+#  Create and Display the 
 
 ani = FuncAnimation(fig, update, frames=len(x_history), 
                     interval=100, blit=False)
