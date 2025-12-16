@@ -56,7 +56,7 @@ All experiments are built using a **scikit-learn Pipeline** to ensure:
 
 📌 **Pipeline architecture:**
 
-![Pipeline Diagram](data.image/pipeline.png)
+![Pipeline Diagram](visuals/pipeline.png)
 
 ---
 
@@ -104,7 +104,7 @@ Key observations:
 
 📌 **Coefficient stability comparison:**
 
-![Feature Coefficients](data/coefficients.png)
+![Feature Coefficients](visuals/coefficients.png)
 
 This step confirmed that the model’s insights were **stable, not accidental**.
 
@@ -127,7 +127,7 @@ Instead of only predicting, the model was used as a **simulation tool**.
 
 📌 **What-If results:**
 
-![What-If Analyzer](data/scenarios.png)
+![What-If Analyzer](visuals/scenarios.png)
 
 ### Insights:
 - Preventing failures matters more than small effort increases  
