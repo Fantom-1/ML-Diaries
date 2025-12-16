@@ -104,7 +104,7 @@ Key observations:
 
 📌 **Coefficient stability comparison:**
 
-![Feature Coefficients](visuals/coefficients.png)
+![Feature Coefficients](visuals/coefficient.png)
 
 This step confirmed that the model’s insights were **stable, not accidental**.
 
