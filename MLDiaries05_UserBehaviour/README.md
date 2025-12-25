@@ -51,7 +51,7 @@ Before clustering, feature distributions were carefully inspected to understand:
 
 ### Feature Distributions
 
-![Feature Distributions](data.png)
+![Feature Distributions](images/data.png)
 
 **Key observations:**
 - Heavy right skew in engagement features
@@ -76,7 +76,7 @@ This ensured:
 
 The elbow method was used to select an appropriate number of clusters.
 
-![Elbow Method](elbowmethod.png)
+![Elbow Method](images/elbowmethod.png)
 
 Silhouette scores across different `K` values:
 {2: 0.1265,
@@ -115,7 +115,7 @@ DBSCAN was applied to:
 
 ### k-Distance Plot (eps Selection)
 
-![k-Distance Plot](DBSCANPlot.png)
+![k-Distance Plot](images/DBSCANPlot.png)
 
 This guided the choice of `eps` and `min_samples`.
 
@@ -137,7 +137,7 @@ This guided the choice of `eps` and `min_samples`.
 
 ### DBSCAN Visualization (PCA Projection)
 
-![DBSCAN PCA](pca.png)
+![DBSCAN PCA](images/pca.png)
 
 DBSCAN reveals that **only a small subset of users form dense behavioral groups**.
 
