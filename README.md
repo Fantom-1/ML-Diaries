@@ -1,21 +1,21 @@
-# ML Diaries
+# ML Diaries 📘
 
-ML Diaries is a collection of notes, experiments, and code related to Machine Learning.
+ML Diaries is a collection of notes, experiments, and code related to Machine Learning 🤖.
 
 This repository is used to document concepts as they are learned, along with small implementations and observations.
 
 ---
 
-## Contents
+## Contents 📂
 
-- Notes on Machine Learning concepts  
-- Code examples and small experiments  
-- Practice implementations of algorithms  
-- Observations and learnings from experiments  
+- Notes on Machine Learning concepts 📝  
+- Code examples and small experiments 💻  
+- Practice implementations of algorithms ⚙️  
+- Observations and learnings from experiments 🔍  
 
 ---
 
-## Focus Areas
+## Focus Areas 🎯
 
 - Machine Learning basics  
 - Data handling and preprocessing  
@@ -24,22 +24,22 @@ This repository is used to document concepts as they are learned, along with sma
 
 ---
 
-## Purpose
+## Purpose 🎯
 
 The purpose of this repository is to keep all ML-related learnings and experiments in one place, in a simple and organized way.
 
 ---
 
-## Usage
+## Usage 🔎
 
 This repository can be used for:
 - Reference while learning ML  
 - Reviewing concepts and experiments  
-- Tracking progress over time  
+- Tracking progress over time ⏳  
 
 ---
 
-## Updates
+## Updates 🔄
 
 The repository is updated regularly as new topics are explored and experiments are added.
 
