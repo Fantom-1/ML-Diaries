@@ -87,4 +87,4 @@ These are not trivial — they are **core grocery signals**.
 ## 📈 Habit Confidence
 
 For each item, a **habit confidence score** is computed:
-
+![Alternative Text](images/confidence.png)
